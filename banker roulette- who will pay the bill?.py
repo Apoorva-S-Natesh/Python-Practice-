@@ -13,3 +13,6 @@ people=len(names)
 #Randomly finding the person who should pay the bill using randint().The last item in th list will be at an index 1 less that length of the list
 bill_paid=names[random.randint(0,people-1)]
 print(f"{bill_paid} is going to pay for the meal today!")
+
+#to make it effecient use choice() function
+#bill_paid = random.choice(names)
